@@ -9,7 +9,7 @@ export default function NotePad() {
     <Layout>
       <div>
         <Head>
-          <title>Notepad</title>
+          <title>Notepad test</title>
         </Head>
         <App/>
       </div>
