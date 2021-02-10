@@ -1,0 +1,63 @@
+  .App {
+    background-color: #3f3160;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+  }
+  
+  .input{
+    background-color: rgb(27,112,137);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+  }
+  .input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .input:focus,.button:focus{
+    outline: none;
+  }
+  .button{
+    height: 50px;
+    width: 80px;
+    border-radius: 6px;
+    border: 0;
+    background-color: rgb(202,156,24);
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .list{
+    color: white;
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+
+.listp{
+    padding: 10px;
+    position: relative;
+    right: -10px;
+}
+
+.lisp span {
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    position: relative;
+    right:-250px;
+    top: -26px;
+}
+  

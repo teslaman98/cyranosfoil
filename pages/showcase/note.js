@@ -1,0 +1,18 @@
+import Head from 'next/head';
+import Layout, { siteTitle } from '../../components/layout';
+import utilStyles from '../../styles/utils.module.css';
+import Link from 'next/link'
+import App from '../../components/notepad/app'
+
+export default function NotePad() {
+  return (
+    <Layout>
+      <div>
+        <Head>
+          <title>Notepad</title>
+        </Head>
+        <App/>
+      </div>
+    </Layout>
+  )
+}
