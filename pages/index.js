@@ -31,7 +31,14 @@ export default function Home({ allPostsData }) {
       </section>
 
 
-      
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <Link href={'/api/auth/login'}>
+          <a>Login</a>
+        </Link> <br />
+        <Link href={'/api/auth/logout'}>
+          <a>Logout</a>
+        </Link>
+      </section>
       </>
     </Layout>
   )
