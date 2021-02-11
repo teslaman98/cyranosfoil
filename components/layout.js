@@ -56,7 +56,7 @@ export default function Layout({ children, home, branch, posts }) {
 
           <div className={styles.navLogin}>
             <div className={styles.button}>
-              <Link href='api/auth/login'>
+              <Link href={'api/auth/login'}>
                 <button type="button" className="btn btn-primary">
                   Login/Logout
                 </button>
