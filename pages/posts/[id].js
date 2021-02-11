@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import {withPageAuthRequired} from '@auth0/nextjs-auth0'
 
 
 export async function getStaticProps({ params }) {
@@ -22,9 +23,9 @@ export async function getStaticPaths() {
     }
   }
 
-  export default function Post({ postData }) {
+  export default withPageAuthRequired(function Post({ postData }) {
     return (
-      <Layout>
+      <Layout posts>
         <Head>
           <title>{postData.title}</title>
         </Head>
@@ -37,4 +38,4 @@ export async function getStaticPaths() {
         </article>
       </Layout>
     )
-  }
+  })

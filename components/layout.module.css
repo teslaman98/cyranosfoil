@@ -4,6 +4,35 @@
     padding: 0 1rem;
     margin: 3rem auto 6rem;
   }
+
+.navContainer {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+.navBrand {
+  width: 200px;
+}
+.navLogo {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo {
+
+}
+.navLogin {
+  width: 200px;
+}
+.button {
+  float: right;
+}
+
   
   .header {
     display: flex;
@@ -13,4 +42,7 @@
   
   .backToHome {
     margin: 3rem 0 0;
+  }
+  .navText {
+    color: white;
   }
