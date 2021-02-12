@@ -53,3 +53,12 @@
   .darkLink {
     color: black;
   }
+  .editorContainer {
+    max-width: 32rem;
+    min-height: 32rem;
+    border-style: double;
+    border-color: black;
+  }
+  .styleButton {
+    width: 2rem;
+  }

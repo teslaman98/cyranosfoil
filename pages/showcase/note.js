@@ -6,7 +6,7 @@ import App from '../../components/notepad/app'
 
 export default function NotePad() {
   return (
-    <Layout>
+    <Layout cases>
       <div>
         <Head>
           <title>Notepad test</title>

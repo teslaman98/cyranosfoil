@@ -8,7 +8,7 @@ import Link from 'next/link'
 const name = "Cyrano's Foil"
 export const siteTitle = 'Cyranos Foil'
 
-export default function Layout({ children, home, branch, posts }) {
+export default function Layout({ children, home, branch, posts, cases }) {
   return (
     <div>
       <Head>
@@ -93,7 +93,14 @@ export default function Layout({ children, home, branch, posts }) {
           </Link>
         </div>
       )
-
+      }
+      { cases && (
+        <div className={styles.backToHome}>
+          <Link href="/posts/showcase">
+            <a>← Back to Showcase</a>
+          </Link>
+        </div>
+      )
       }
     </div>
 
