@@ -56,9 +56,19 @@
   .editorContainer {
     max-width: 32rem;
     min-height: 32rem;
-    border-style: double;
+    border-style: solid;
     border-color: black;
   }
   .styleButton {
     width: 2rem;
+    height: 2rem;
+    margin-right: 0px;
+  }
+  .editorButtonContainer {
+    display: flex;
+    border-bottom-style: solid;
+    padding: 10px;
+  }
+  .textContainer {
+
   }
