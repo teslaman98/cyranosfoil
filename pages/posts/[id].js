@@ -1,6 +1,7 @@
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
+import Image from 'next/image'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import {withPageAuthRequired} from '@auth0/nextjs-auth0'
@@ -30,6 +31,11 @@ export async function getStaticPaths() {
           <title>{postData.title}</title>
         </Head>
         <article>
+          <Image
+          src={postData.img}
+          height={700}
+          width={700}
+          ></Image>
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />

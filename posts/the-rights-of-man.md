@@ -1,6 +1,7 @@
 ---
 title: 'The Protection of the Rights of Man'
 date: '2021-01-09'
+img: '/images/ladyliberty.jpg'
 ---
 
 The Natural Rights of Man are a recognition that a Man’s life is an end in itself, that he is fit to live in reality, that as a rational animal his means of survival is his mind, that to live amongst other men he must be free to act according to reason for the maintenance and furtherance of his life, that his freedom to act to ensure his life by rational means imposes no obligations on others except a negative one; to not restrict that freedom.

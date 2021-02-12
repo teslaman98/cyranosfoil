@@ -1,6 +1,7 @@
 ---
 title: 'The Irresponsible Inheritor'
 date: '2021-01-02'
+img: '/images/ladyliberty.jpg'
 ---
 
 

@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../../components/layout';
 import utilStyles from '../../styles/utils.module.css';
-import { getSortedPostsData } from '../../lib/posts';
+import { getSortedPostsData } from '../../lib/projects';
 import Link from 'next/link';
 import Date from '../../components/date';
-import Image from 'next/image'
 
 
 
@@ -18,7 +17,7 @@ export async function getStaticProps() {
 }
 
 
-export default function Branches({ allPostsData }) {
+export default function Showcase({ allPostsData }) {
   return (
     <Layout branch>
       <Head>
@@ -26,18 +25,13 @@ export default function Branches({ allPostsData }) {
       </Head>
       <>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Articles</h2>
+        <h2 className={utilStyles.headingLg}>Showcase</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id,date,title,img }) =>( 
+          {allPostsData.map(({ id,date,title }) =>( 
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
-              </Link> <br/>
-              <Image
-                src={img}
-                height={300}
-                width={300}
-                ></Image>
+              </Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
