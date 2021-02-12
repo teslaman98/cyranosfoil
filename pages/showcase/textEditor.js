@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function TextEditor() {
     return (
-      <Layout>
+      <Layout cases>
         <div>
           <Head>
             <title>Text Editor</title>
