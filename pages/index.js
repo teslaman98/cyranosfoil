@@ -5,6 +5,7 @@ import indexStyles from '../styles/pages/index.module.css'
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import Image from 'next/image';
 
 
 
@@ -25,6 +26,22 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <>
+      <div className={utilStyles.buisCardContainer}>
+        <div>
+          <Image
+          priority
+          src="/images/cyrano.jpg"
+          className={utilStyles.borderCircle}
+          height={170}
+          width={170}
+          ></Image>
+        </div>
+        <div className={utilStyles.buisCardInfoContainer}>
+          <h4>David Durden</h4>
+          <p>Web Developer</p>
+          <p>214-533-7754</p>
+        </div>
+      </div>
       <section className={indexStyles.sectionContainers}>
         <Link href={'/posts/articles'}>
           <a className={`${utilStyles.darkLink} ${utilStyles.headingLg}`}>Articles</a>

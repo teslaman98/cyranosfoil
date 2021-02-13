@@ -72,3 +72,17 @@
   .textContainer {
 
   }
+
+.buisCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-style: dotted;
+  border-radius: 40px;
+  height: 10rem;
+}
+.buisCardInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
