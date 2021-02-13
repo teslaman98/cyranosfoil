@@ -18,7 +18,7 @@ export default function Profile() {
           </Head>
           <div>
               <h1>Hello {user.name}</h1>
-              <Link href={'api/auth/logout'}>
+              <Link href={'../api/auth/logout'}>
                 <h3>Logout</h3>
               </Link>
               
