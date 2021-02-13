@@ -5,7 +5,11 @@ import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link'
 
 export default function Profile() {
-    const user = useUser();
+    const { user, error, isLoading } = useUser();
+
+    if (isLoading) return <div>Loading...</div>
+    if (error) return <div>{error.message}</div>
+    if (!user) return <Link href="/api/auth/login"><a>Login</a></Link>;
     return (
       <Layout cases>
         <div>
