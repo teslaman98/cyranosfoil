@@ -36,8 +36,8 @@ export default function Layout({ children, home, branch, posts, cases }) {
         <div className={styles.navContainer}>
           
           <div className={styles.navBrand}><h1 className={`${utilStyles.headingLg} ${styles.navText} `}>{name}</h1></div>
-
-          <div className={styles.navLogo}>
+{/* Nav logo of cyrano */}
+          {/* <div className={styles.navLogo}>
             <div className={styles.logo}>
             <Link href="/">
                 <a>
@@ -52,7 +52,7 @@ export default function Layout({ children, home, branch, posts, cases }) {
                 </a>
               </Link>
               </div>
-          </div>
+          </div> */}
 
           <div className={styles.navLogin}>
             <div className={styles.button}>
