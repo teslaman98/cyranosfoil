@@ -56,9 +56,10 @@ export default function Layout({ children, home, branch, posts, cases }) {
 
           <div className={styles.navLogin}>
             <div className={styles.button}>
-              <Link href={'api/auth/login'}>
+              {/* <Link href={'api/auth/login'}> */}
+              <Link href={'showcase/userProfile'}>
                 <button type="button" className="btn btn-primary">
-                  Login/Logout
+                  Account
                 </button>
               </Link>
 

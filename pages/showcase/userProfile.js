@@ -10,7 +10,7 @@ export default function Profile() {
     if (isLoading) return <div>Loading...</div>
     if (error) return <div>{error.message}</div>
     if (!user) return <Link href="/api/auth/login"><a>Login</a></Link>;
-    return (
+    else return (
       <Layout cases>
         <div>
           <Head>
@@ -18,9 +18,13 @@ export default function Profile() {
           </Head>
           <div>
               <h1>Hello {user.name}</h1>
+              <Link href={'api/auth/logout'}>
+                <h3>Logout</h3>
+              </Link>
               
           </div>
         </div>
       </Layout>
-    )
+    );
+
   }
