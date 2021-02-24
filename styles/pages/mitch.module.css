@@ -1,0 +1,54 @@
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    border-radius: 20px;
+}
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.nameTitle{
+    margin-right: 2rem;
+}
+
+.name {
+    
+}
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: dotted;
+    border-radius: 20px;
+}
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    border-radius: 20px;
+
+}
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    border-radius: 20px;
+    flex-basis: 13rem;
+}
+.experienceItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.jlt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.jobBody {}

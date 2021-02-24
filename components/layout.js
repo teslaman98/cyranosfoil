@@ -5,10 +5,10 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 
-const name = "Cyrano's Foil"
+const name = "Cyrano's Foil" 
 export const siteTitle = 'Cyranos Foil'
 
-export default function Layout({ children, home, branch, posts, cases }) {
+export default function Layout({ children, home, branch, posts, cases, resume }) {
   return (
     <div>
       <Head>
@@ -32,42 +32,44 @@ export default function Layout({ children, home, branch, posts, cases }) {
       </Head>
 
 
-      <nav className={'navbar navbar-dark bg-dark'}>
-        <div className={styles.navContainer}>
-          
-          <div className={styles.navBrand}><h1 className={`${utilStyles.headingLg} ${styles.navText} `}>{name}</h1></div>
-{/* Nav logo of cyrano */}
-          {/* <div className={styles.navLogo}>
-            <div className={styles.logo}>
-            <Link href="/">
-                <a>
-                  <Image
-                    priority
-                    src="/images/cyrano.jpg"
-                    className={utilStyles.borderCircle}
-                    height={90}
-                    width={90}
-                    alt={name}
-                  />
-                </a>
-              </Link>
+    {!resume && (
+            <nav className={'navbar navbar-dark bg-dark'}>
+            <div className={styles.navContainer}>
+              
+              <div className={styles.navBrand}><h1 className={`${utilStyles.headingLg} ${styles.navText} `}>{name}</h1></div>
+    {/* Nav logo of cyrano */}
+              {/* <div className={styles.navLogo}>
+                <div className={styles.logo}>
+                <Link href="/">
+                    <a>
+                      <Image
+                        priority
+                        src="/images/cyrano.jpg"
+                        className={utilStyles.borderCircle}
+                        height={90}
+                        width={90}
+                        alt={name}
+                      />
+                    </a>
+                  </Link>
+                  </div>
+              </div> */}
+    
+              <div className={styles.navLogin}>
+                <div className={styles.button}>
+                  {/* <Link href={'api/auth/login'}> */}
+                  <Link href={'utility/user/userProfile'}>
+                    <button type="button" className="btn btn-primary">
+                      Account
+                    </button>
+                  </Link>
+    
+                </div>
               </div>
-          </div> */}
-
-          <div className={styles.navLogin}>
-            <div className={styles.button}>
-              {/* <Link href={'api/auth/login'}> */}
-              <Link href={'utility/user/userProfile'}>
-                <button type="button" className="btn btn-primary">
-                  Account
-                </button>
-              </Link>
-
+              
             </div>
-          </div>
-          
-        </div>
-      </nav>
+          </nav>
+    )}
 
     <div className={styles.container}>
       <header className={styles.header}>
@@ -103,6 +105,7 @@ export default function Layout({ children, home, branch, posts, cases }) {
         </div>
       )
       }
+
     </div>
 
     </div>

@@ -75,7 +75,7 @@
   flex-direction: row;
   justify-content: space-around;
   border-style: dotted;
-  border-radius: 40px;
+  border-radius: 20px;
   height: 10rem;
 }
 .buisCardInfoContainer {

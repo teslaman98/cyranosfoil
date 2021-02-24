@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.buisCardInfoContainer}>
           <h4>David Durden</h4>
           <p>Web Developer</p>
-          <p>214-533-7754</p>
+          
         </div>
       </div>
       <section className={indexStyles.sectionContainers}>
