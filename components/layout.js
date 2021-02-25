@@ -58,7 +58,7 @@ export default function Layout({ children, home, branch, posts, cases, resume })
               <div className={styles.navLogin}>
                 <div className={styles.button}>
                   {/* <Link href={'api/auth/login'}> */}
-                  <Link href={'utility/user/userProfile'}>
+                  <Link href={__dirname,'utility/user/userProfile'}>
                     <button type="button" className="btn btn-primary">
                       Account
                     </button>

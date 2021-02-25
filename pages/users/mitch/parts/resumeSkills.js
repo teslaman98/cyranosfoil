@@ -1,4 +1,4 @@
-import resStyles from '../../../../styles/pages/mitch.module.css';
+import resStyles from '../../../../components/resume.module.css';
 
 export default function Skills() {
     return (
@@ -6,12 +6,18 @@ export default function Skills() {
         <div className={resStyles.skillsContainer}>
           <h4>Skills</h4>
           <ul>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
-            <li>Skill</li>
+            <li>Communications</li>
+            <br />
+            <li>Conflifct Resolution</li>
+            <br />
+            <li>Overcoming Objections</li>
+            <br />
+            <li>Vehicle Maintenance</li>
+            <br />
+            <li>OBD2 Diagnostics</li>
+            <br />
+            <li>Stick Welding</li>
+            <br />
             <li>Skill</li>
           </ul>
           

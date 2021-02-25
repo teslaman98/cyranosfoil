@@ -15,11 +15,11 @@ export default function Header() {
             </div>
 
             <div className={resStyles.info}>
-                <div className={resStyles.address}>
-                    
-                </div>
-                <div className={resStyles.phone}></div>
-                <div className={resStyles.email}></div>
+              <div className={resStyles.address}>
+                      1113 Rufe Snow Dr, Keller, Tx 76248
+                  </div>
+                  <div className={resStyles.phone}>707-787-7326</div>
+                  <div className={resStyles.email}>mitchell.orion.grim@gmail.com</div>
 
             </div>
 

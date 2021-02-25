@@ -6,8 +6,6 @@
 .resumeContainer {
     display: flex;
     flex-direction: column;
-    border-style: double;
-    border-radius: 20px;
 
 }
 .headerContainer {
@@ -21,32 +19,28 @@
 .nameTitle{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.name {
-    
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 13rem;    
 }
 .contentContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-style: dotted;
-    border-radius: 20px;
 }
 .experienceContainer {
     display: flex;
     flex-direction: column;
-    border-style: dashed;
-    border-radius: 20px;
+    max-width: 27em;
 
 }
 .skillsContainer {
     display: flex;
     flex-direction: column;
-    border-style: dashed;
-    border-radius: 20px;
     flex-basis: 13rem;
 }
 .experienceItem {
