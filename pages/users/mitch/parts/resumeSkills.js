@@ -12,13 +12,19 @@ export default function Skills() {
             <br />
             <li>Overcoming Objections</li>
             <br />
+            <li>Problem Solving</li>
+            <br />
             <li>Vehicle Maintenance</li>
             <br />
             <li>OBD2 Diagnostics</li>
             <br />
             <li>Stick Welding</li>
             <br />
-            <li>Skill</li>
+            <li>Problem Solving</li>
+            <br />
+            <li>Botanical Identification</li>
+            <br />
+
           </ul>
           
         </div>

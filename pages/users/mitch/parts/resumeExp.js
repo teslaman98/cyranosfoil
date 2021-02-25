@@ -30,8 +30,8 @@ export default function Experience() {
           </div>
           <div className={resStyles.jobBody}>
             <ul>
-              <li>Over a period of 3 weeks bought and sold 3 vehicles.</li>
-              <li>Made no less than 25% return on either of the vehicles.</li>
+              <li>Over a period of 3 weeks bought and sold 2 vehicles and a 5th wheel trailer.</li>
+              <li>Made no less than 25% return on any of my investments.</li>
               <li>Made $1,400 in profit on a 3 day turn around.</li>
             </ul>
           </div>
@@ -39,7 +39,7 @@ export default function Experience() {
 
         <div className={resStyles.experienceItem}>
           <div className={resStyles.jlt}>
-            <h6>Sonoma Marin Arborists, California - Tree Climber</h6>
+            <h6>Sonoma Marin Arborists, Petaluma California - Tree Climber</h6>
           </div>
           <div>
             <h9>Aug 2017 - November 2019 </h9>
