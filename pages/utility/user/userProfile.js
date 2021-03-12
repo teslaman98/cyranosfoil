@@ -19,7 +19,16 @@ export default function Profile() {
           </Head>
           <div>
               <h1>Hello {user.name}</h1>
-              <h3></h3>
+              <h2>Schedule for week 3/8 through 3/14</h2><br/>
+              <h3>Friday</h3><br/>
+              <p>Billy Bob's 6-10:30</p><br/>
+              <br/><br/>
+              <h3>Saturday</h3><br/>
+              <p>Six Flags    11am-4pm</p><br/>
+              <p>Billy Bob's  6-10:30</p><br/>
+              <p>Sunday</p><br/>
+              <p>Billy Bob's  12-6pm</p><br/>
+              <p>Billy Bob's  6-9:30pm</p><br/>
               <Link href={'../api/auth/logout'}>
                 <h3>Logout</h3>
               </Link>
