@@ -26,7 +26,7 @@ export default function Profile() {
               <h3>Saturday</h3><br/>
               <p>Six Flags    11am-4pm</p><br/>
               <p>Billy Bob's  6-10:30</p><br/>
-              <p>Sunday</p><br/>
+              <h3>Sunday</h3><br/>
               <p>Billy Bob's  12-6pm</p><br/>
               <p>Billy Bob's  6-9:30pm</p><br/>
               <Link href={'../api/auth/logout'}>

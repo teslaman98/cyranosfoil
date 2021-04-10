@@ -49,6 +49,9 @@ export default function Home({ allPostsData }) {
         <Link href={'/posts/showcase'}>
           <a className={`${utilStyles.darkLink} ${utilStyles.headingLg}`}>Showcase</a>
         </Link>
+        <Link href={'/posts/leads'}>
+          <a className={`${utilStyles.darkLink} ${utilStyles.headingLg}`}>Leads</a>
+        </Link>
       </section>
       </>
     </Layout>
