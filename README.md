@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+My best attempt so far at a portfolio website/personal blog
+May be best to seperate the two.
