@@ -8,7 +8,8 @@ import Link from 'next/link'
 const name = "Cyrano's Foil" 
 export const siteTitle = 'Cyranos Foil'
 
-export default function Layout({ children, home, branch, posts, cases, resume }) {
+export default function Layout({ 
+  children, home, branch, posts, cases, resume }) {
   return (
     <div>
       <Head>
