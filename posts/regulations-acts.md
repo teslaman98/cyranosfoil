@@ -1,7 +1,7 @@
 ---
 title: 'Acts in Regulations'
 date: '2021-04-26'
-img: '/images/david.jpg'
+img: '/images/laws.jpg'
 ---
 
 ### Mentions of 'Acts' on Page: 1
