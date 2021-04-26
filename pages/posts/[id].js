@@ -33,7 +33,7 @@ export async function getStaticPaths() {
         <article>
           <Image
           src={postData.img}
-          height={700}
+          height={500}
           width={700}
           ></Image>
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>

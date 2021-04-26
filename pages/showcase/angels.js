@@ -10,6 +10,7 @@ export default function Angels() {
       <Nav/>
       <div className={style.hero}>
           <h1>Angels Auto Repair</h1>
+          <h3>214-218-3711</h3>
       </div>
 
       <section className={style.content}>
