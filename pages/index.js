@@ -39,6 +39,9 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.buisCardInfoContainer}>
           <h4>David Durden</h4>
           <p>Web Developer</p>
+          <Link href={'/users/david/resume/resume'}>
+            <a className={`${utilStyles.darkLink} ${utilStyles.headingLg}`}>Resume</a>
+          </Link>
           
         </div>
       </div>
