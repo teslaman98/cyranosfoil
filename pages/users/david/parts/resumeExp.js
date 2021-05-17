@@ -31,8 +31,8 @@ export default function Experience() {
           <div className={resStyles.jobBody}>
             <ul>
               <li> Climbed roofs and residential towers to install radio equipment. </li>
-              <li>  </li>
-              <li>  </li>
+              <li> Used DNS/IP protocols to set up networking equipment. </li>
+              <li> Ran CAT5 through attics and performed wall drops. </li>
             </ul>
           </div>
         </div>
@@ -46,9 +46,9 @@ export default function Experience() {
           </div>
           <div className={resStyles.jobBody}>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li> Show apartments and houses to prospective tenents. </li>
+              <li> Perform minor repairs including drywall and plumbing. </li>
+              <li> Collected rent and checked in on tenets who were late. </li>
             </ul>
           </div>
         </div>

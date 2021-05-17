@@ -21,7 +21,7 @@ export default function Header() {
                   </div>
                   <div className={resStyles.phone}>214-533-7754</div>
                   <div className={resStyles.email}>david.durden.tx@gmail.com</div>
-
+                  <div><a href="https://pdf-ace.com/pdfme/" target= "_blank">Save as PDF</a></div>
             </div>
 
       </div>

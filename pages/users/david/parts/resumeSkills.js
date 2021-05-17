@@ -25,6 +25,8 @@ export default function Skills() {
             <li>MySql</li>
             <br />
             <li>Nodejs/Express</li>
+            <br /> 
+            <li>Forklift Certified</li>
             <br />
           </ul>
           
