@@ -55,4 +55,18 @@
     align-items: center;
     justify-content: flex-start;
 }
-.jobBody {}
+.educationContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
