@@ -4,7 +4,7 @@ date: '2021-01-09'
 img: '/images/shiningAmerica.jpg'
 ---
 
-The Natural Rights of Man are a recognition that a Man’s life is an end in itself, that he is fit to live in reality, that as a rational animal his means of survival is his mind, that to live amongst other men he must be free to act according to reason for the maintenance and furtherance of his life, that his freedom to act to ensure his life by rational means imposes no obligations on others except a negative one; to not restrict that freedom.
+The Natural Rights of Man are a recognition that a Mans life is an end in itself, that he is fit to live in reality, that as a rational animal his means of survival is his mind, that to live amongst other men he must be free to act according to reason for the maintenance and furtherance of his life, that his freedom to act to ensure his life by rational means imposes no obligations on others except a negative one; to not restrict that freedom.
 
 Property is a consequence of the primary right of Life. Life is a constant process of self-generated and self-sustaining action and there can be no action without a thing that acts and upon which that action is performed. To deprive a man of ownership of his physical form would be to deprive him of ownership of his life. To deprive a man of the things which he alone has acted upon and transformed would be to deprive him of the products of his life. Just as a man’s cells act on physical matter to sustain and build his body, his mind acts on a macroscopic level to sustain and build his life. It is true, literally and figuratively that to deprive a man of the products of his life and mind, on a microscopic or macroscopic level, is to deprive him of life itself. 
 
