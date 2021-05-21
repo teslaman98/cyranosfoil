@@ -4,7 +4,6 @@ import { useUser, withPageAuthRequired } from '@auth0/nextjs-auth0'
 import utilStyles from '../../../styles/utils.module.css';
 import profStyles from '../../../styles/profile.module.css';
 import Link from 'next/link';
-import ProfileInfo from '../../../lib/user/profile.js'
 export default function Profile() {
     const { user, error, isLoading } = useUser();
 
@@ -14,9 +13,14 @@ export default function Profile() {
     else return (
       <Layout branch>
         <div>
-          
-          <ProfileInfo />
-
+          <Head>
+            <title>Text Editor</title>
+          </Head>
+          <div>
+              <h1>Hello {user.name}</h1>
+              <Link href={'../api/auth/logout'}>
+                <h3>Logout</h3>
+              </Link>
         </div>
       </Layout>
     );
