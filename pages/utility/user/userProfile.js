@@ -13,10 +13,6 @@ export default function Profile() {
     else return (
       <Layout branch>
         <div>
-          <Head>
-            <title>Text Editor</title>
-          </Head>
-          <div>
               <h1>Hello {user.name}</h1>
               <Link href={'../api/auth/logout'}>
                 <h3>Logout</h3>
