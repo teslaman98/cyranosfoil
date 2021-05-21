@@ -34,7 +34,7 @@ export default function Layout({
 
 
     {!resume && (
-            <nav className={'navbar navbar-dark bg-dark'}>
+            <nav className={'navbar py-0 navbar-dark bg-dark'}>
             <div className={styles.navContainer}>
               
               <div className={styles.navBrand}><h1 className={`${utilStyles.headingLg} ${styles.navText} `}>{name}</h1></div>
